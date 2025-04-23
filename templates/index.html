@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <H1>To Find Number is Prime</H1>
+</head>
+<body>
+    <h2>Enter a numbers</h2>
+    <form method="POST">
+        <input type="number" name="num1" required>
+        <button type="submit">Check Number</button>
+    </form>
+    {% if result is not none %}
+        <h3>Result: {{ result }}</h3>
+    {% endif %}
+</body>
+</html>
