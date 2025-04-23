@@ -1,6 +1,3 @@
-def addition(a, b):
-    return a + b
-
 def find_Prime(number): # Function to find prime numbers and their factors
     if number <= 1:
         return False, [1, number]
